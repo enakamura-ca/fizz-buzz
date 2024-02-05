@@ -27,7 +27,7 @@ Object.entries(numbers).forEach(([testInput, expectedOutput]) => {
 });
 
 function test(name, actual, expected) {
-  if (+actual !== +expected) {
+  if (String(actual) !== String(expected)) {
     console.error(`${name} failed (got ${actual})`);
   } else {
     console.log(name);
