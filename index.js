@@ -1,1 +1,3 @@
-console.log("Put your solution here")
+export default function fizzBuzz(input) {
+    return input;
+}  
